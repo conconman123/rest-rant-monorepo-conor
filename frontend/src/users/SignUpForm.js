@@ -25,7 +25,7 @@ function SignUpForm() {
 
 		history.push(`/`)
 	}
-
+	//sdasd
 	return (
 		<main>
 			<h1>Sign Up</h1>
@@ -65,6 +65,18 @@ function SignUpForm() {
 							className="form-control"
 							id="email"
 							name="email"
+						/>
+					</div>
+					<div className="col-am-6 form-group">
+						<label htmlFor="password">Password</label>
+						<input
+							type="password"
+							required
+							vlaue={user.password}
+							onChange={e => setUser({ ...user, password: e.target.value})}
+							className="form-control"
+							id="password"
+							name="password"
 						/>
 					</div>
 				</div>
