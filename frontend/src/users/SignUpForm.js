@@ -25,7 +25,7 @@ function SignUpForm() {
 
 		history.push(`/`)
 	}
-
+	//sdasd
 	return (
 		<main>
 			<h1>Sign Up</h1>
